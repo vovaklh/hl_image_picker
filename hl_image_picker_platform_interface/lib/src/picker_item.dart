@@ -4,7 +4,7 @@ class HLPickerItem {
     required this.id,
     required this.name,
     required this.mimeType,
-    required this.size,
+    this.size,
     required this.width,
     required this.height,
     required this.type,
@@ -16,7 +16,7 @@ class HLPickerItem {
   final String id;
   final String name;
   final String mimeType;
-  final int size;
+  final int? size;
   final int width;
   final int height;
   final String type;
